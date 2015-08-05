@@ -10,7 +10,7 @@ stdout_path "#{@dir}/logs/unicorn.log"
 
 # Unicorn socket
 # listen "/tmp/unicorn.[app name].sock"
-listen "/tmp/unicorn.myapp.sock"
+listen "/tmp/unicorn.hooks.sock"
 
 # Number of processes
 worker_processes 2
