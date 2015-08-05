@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
+# Remove logs.
+rm logs/unicorn.*.log
+
 # Run unicorn as a deamon.
 unicorn -c config/unicorn.rb -D
