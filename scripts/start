@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Run unicorn as a deamon.
+unicorn -c config/unicorn.rb -D
