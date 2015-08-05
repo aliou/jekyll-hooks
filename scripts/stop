@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 # Stop the unicorn master process.
-cat pids/unicorn.pid | xargs kill
+[[ -f pids/unicorn.pid ]] && cat pids/unicorn.pid | xargs kill
