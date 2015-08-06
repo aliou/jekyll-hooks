@@ -1,0 +1,7 @@
+{
+  "public-repo": {
+    "description": "Testing repo.",
+    "destination": "sites/out/public-repo",
+    "source": "sites/src/public-repo"
+  }
+}

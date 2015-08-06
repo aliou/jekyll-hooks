@@ -1,5 +1,6 @@
 require 'forwardable'
 
+# TODO: Extract site source and site destination with folder prefix here.
 class SiteConfig
   extend Forwardable
 
