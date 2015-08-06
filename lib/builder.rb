@@ -1,7 +1,7 @@
 require './lib/site_config'
 
 class Builder
-  def initialize(repo_name, config_file = nil, folder_prefix = ENV['PWD'])
+  def initialize(repo_name, config_file = nil, folder_prefix = ENV['HOME'])
     @repo_name = repo_name
     @folder_prefix = folder_prefix
     config = SiteConfig.new(config_file)
