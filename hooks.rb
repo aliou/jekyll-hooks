@@ -1,6 +1,3 @@
-require 'sinatra'
-require 'json'
-
 require './lib/builder'
 
 class Hooks < Sinatra::Base
