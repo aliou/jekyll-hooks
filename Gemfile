@@ -11,4 +11,5 @@ group :test, :development do
   gem 'rspec'
   gem 'rack-test'
   gem 'byebug'
+  gem 'shoulda-matchers', '3.0.0.rc1'
 end
