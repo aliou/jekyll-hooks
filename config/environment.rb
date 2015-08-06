@@ -1,8 +1,5 @@
 require 'rubygems'
 require 'bundler'
 
-require 'sinatra'
-
 # Load all default gems and then gems for this env.
-Bundler.require(:default)
-Bundler.require(Sinatra::Base.environment)
+Bundler.require(:default, ENV.fetch('RACK_ENV').to_sym)
