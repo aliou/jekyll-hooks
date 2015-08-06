@@ -1,0 +1,24 @@
+{
+  "*.rb": {
+    "alternate": "spec/{}_spec.rb",
+    "type": "source"
+  },
+  "lib/*.rb": {
+    "alternate": "spec/lib/{}_spec.rb",
+    "type": "lib"
+  },
+  "spec/*_spec.rb": {
+    "alternate": "{}.rb",
+    "type": "spec"
+  },
+  "spec/spec_helper.rb": {
+    "type": "spec"
+  },
+  ".projections.json": {
+    "type": "projection"
+  },
+  "Gemfile": {
+    "type": "lib",
+    "alternate": "Gemfile.lock"
+  }
+}
