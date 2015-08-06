@@ -25,7 +25,7 @@ RSpec.describe Hooks do
         expect(Builder).to receive(:new).and_return(Builder.new(
           repo_name,
           'spec/fixtures/config_sites.json',
-          "#{ ENV['PWD'] }/spect/fixtures")
+          "#{ ENV['PWD'] }/spec/fixtures")
         )
 
         post '/', raw_data
