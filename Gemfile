@@ -6,6 +6,9 @@ gem 'jekyll'
 gem 'rugged'
 gem 'therubyracer'
 
-group :development do
+group :test, :development do
   gem 'pry'
+  gem 'rspec'
+  gem 'rack-test'
+  gem 'byebug'
 end
