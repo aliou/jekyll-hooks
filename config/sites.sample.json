@@ -1,0 +1,7 @@
+{
+  "aliou.github.io": {
+    "description": "Enim esse exercitationem.",
+    "destination": "sites/out/aliou.github.io",
+    "source": "sites/src/aliou.github.io"
+  }
+}
